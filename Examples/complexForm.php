@@ -84,7 +84,7 @@ $form->add($fax);
 $birthday = new \FrontendForms\InputDate('birthday');
 $birthday->setLabel('My birthday');
 $birthday->setRule('required')->setCustomFieldName('The day of my birth');
-// no need to add special other validation rules for dates because they will be added by default by the InputEmail class
+// no need to add special other validation rules for dates because they will be added by default by the InputDate class
 $form->add($birthday);
 
 $children = new \FrontendForms\InputNumber('children');
